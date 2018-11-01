@@ -110,7 +110,7 @@ public class Main extends JPanel {
     }
 
     private static void buildGUI() {
-        JFrame frame = new JFrame("Laborator 2/3 TIDPP"); // title
+        JFrame frame = new JFrame("Laborator 2"); // title
         frame.setContentPane(new Main()); // content
         frame.setSize(300, 300); // width / height
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // exit application when window is closed
